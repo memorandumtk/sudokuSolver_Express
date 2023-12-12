@@ -2,6 +2,10 @@ code {
   background: #d0d0d5;
 }
 
+body{
+  background-color: beige;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -101,4 +105,13 @@ td {
   .form-container {
     align-self: center;
   }
+}
+
+.sudoku-board{
+  display: grid;
+  grid-template-columns: repeat(9, 24px [col-start]);
+}
+
+.init {
+  font-weight: 700;
 }
